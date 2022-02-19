@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Week1: NextPage<PageProps> = (props) => {
   // setting name at server
@@ -9,9 +9,11 @@ const Week1: NextPage<PageProps> = (props) => {
   useEffect(() => {
     // update the name at client
     setTimeout(() => {
-      setName("Ansari");
+      setName("Ansariiii");
     }, 5000);
   }, []);
+
+  console.log("--------------", name);
 
   return (
     <div>
@@ -49,7 +51,7 @@ export async function getServerSideProps() {
    * your component render at server with passed props and served
    */
 
-  return { props: { name: "Shahroz" } };
+  return { props: { name: "Shahrozzzz" } };
 }
 
 interface PageProps {
