@@ -4,11 +4,6 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <div>
-      <header className="flex font-thin">
-        <h1 className="text-3xl w-full flex justify-center my-3 font-bold">
-          Welcome to <span className="text-blue-600"> &nbsp;Next.js</span>
-        </h1>
-      </header>
       <main className="flex m-3">
         <ul>
           <li>
@@ -25,6 +20,12 @@ const Home: NextPage = () => {
               getStaticProps, getStaticPaths, Incremental Static Regeneration
               and Client Side fetching
             </p>
+          </li>
+          <li>
+            <Link href="/week3">
+              <a className="text-blue-600">Week 3</a>
+            </Link>
+            <p>Handling Pages layouts</p>
           </li>
         </ul>
       </main>

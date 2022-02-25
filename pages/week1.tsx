@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Week1: NextPage<PageProps> = (props) => {
@@ -17,14 +16,6 @@ const Week1: NextPage<PageProps> = (props) => {
 
   return (
     <div>
-      <header className="flex">
-        <div className="mx-2 text-blue-600">
-          <Link href="/">Back</Link>
-        </div>
-        <h1 className="text-3xl w-full flex justify-center my-3 font-bold">
-          Week 1
-        </h1>
-      </header>
       <main className="flex m-3">
         <h1>
           Hello <span className="text-red-600">{name}</span>

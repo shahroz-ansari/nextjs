@@ -4,14 +4,6 @@ import Link from "next/link";
 const Week2: NextPage<PageProps> = (props) => {
   return (
     <div>
-      <header className="flex">
-        <div className="mx-2 text-blue-600">
-          <Link href="/">Back</Link>
-        </div>
-        <h1 className="text-3xl w-full flex justify-center my-3 font-bold">
-          Week 2
-        </h1>
-      </header>
       <main className="m-3">
         <div>
           <span className="font-bold">getStaticProps</span> runs on build time
