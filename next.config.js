@@ -16,7 +16,7 @@ const nextConfig = {
         headers: [
           {
             key: "X-Frame-Options",
-            value: "gamezop.com",
+            value: "ALLOW-FROM https://gamezop.com/",
           },
         ],
       },
