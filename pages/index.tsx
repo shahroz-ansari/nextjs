@@ -27,6 +27,12 @@ const Home: NextPage = () => {
             </Link>
             <p>Handling Pages layouts</p>
           </li>
+          <li>
+            <Link href="/week4">
+              <a className="text-blue-600">Week 4</a>
+            </Link>
+            <p>Image Handling</p>
+          </li>
         </ul>
       </main>
       <footer className="mt-10 flex justify-end mr-3">

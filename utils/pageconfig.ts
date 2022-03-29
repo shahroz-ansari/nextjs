@@ -20,6 +20,9 @@ const pageconfig: PageConfig = {
   "/week3": {
     title: "Layouts",
   },
+  "/week4": {
+    title: "Next.js Image",
+  },
 };
 
 interface PageConfig {
