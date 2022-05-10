@@ -6,7 +6,7 @@ const Game: NextPage<PageProps> = () => {
       <h1>Game</h1>
       <iframe
         id="game"
-        style={{ overflow: "hidden", height: "400px" }}
+        style={{ overflow: "hidden", height: "800px", width: "1200px" }}
         src="https://www.gamezop.com/g/HJP4afkvqJQ?id=4419"
       ></iframe>
     </div>

@@ -33,6 +33,12 @@ const Home: NextPage = () => {
             </Link>
             <p>Image Handling</p>
           </li>
+          <li className="border-t border-black mt-4 pt-4">
+            <Link href="/sanity">
+              <a className="text-blue-600">Sanity Demo</a>
+            </Link>
+            <p>Fetching and displaying content from sanity</p>
+          </li>
         </ul>
       </main>
       <footer className="mt-10 flex justify-end mr-3">
